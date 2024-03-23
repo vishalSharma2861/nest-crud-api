@@ -1,0 +1,12 @@
+export enum PRIORITY {
+    HIGH = 'HIGH',
+    MEDIUM = 'MEDIUM',
+    LOW = 'LOW'
+  }
+
+  export enum STATUS {
+    NOT_STARTED = 'NOT_STARTED',
+    PARTIALLY_DONE = 'PARTIALLY_DONE',
+    IN_PROGRESS = 'IN_PROGRESS',
+    COMPLETE = 'COMPLETE'
+  }
